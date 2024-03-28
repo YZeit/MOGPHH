@@ -13,13 +13,13 @@ Dispatching rules are simple but efficient heuristics to solve multi-objective j
 - `main.py` - Main file where the loop of runs is implemented (1 to 30)
 - `GPHH.py` -Implementation of the genetic programming (definition of terminals, functions, and other settings)
 - `deap/algorithms.py` - Includes the MO-GP-HH algorithms (loop over all generations):
-      -	`GPHH_experiment1`:                 Algorithm for the first experiment to measure the selection accuracy and execution time
-      -	`GPHH_experiment2_WS`:              Algorithm for the second experiment without using surrogates
-      -	`GPHH_experiment2_SR`:              Algorithm for the second experiment using SR as a surrogate
-      -	`GPHH_experiment2_RF`:              Algorithm for the second experiment using RF as a surrogate
-      -	`GPHH_experiment2_RF_duplicate`:    Algorithm for the second experiment using RF as a surrogate and eliminating duplicates based on phenotypic characterization
-      -	`GPHH_experiment2_DT_duplicates`:   Algorithm for the second experiment using DT as a surrogate and eliminating duplicates based on phenotypic characterization
-      -	`GPHH_experiment2_NB_duplicates`:   Algorithm for the second experiment using NB as surrogate and eliminating duplicates based on phenotypic characterization
+      - `GPHH_experiment1` - Algorithm for the first experiment to measure the selection accuracy and execution time
+      - `GPHH_experiment2_WS` - Algorithm for the second experiment without using surrogates
+      - `GPHH_experiment2_SR` - Algorithm for the second experiment using SR as a surrogate
+      - `GPHH_experiment2_RF` - Algorithm for the second experiment using RF as a surrogate
+      - `GPHH_experiment2_RF_duplicate` - Algorithm for the second experiment using RF as a surrogate and eliminating duplicates based on phenotypic characterization
+      - `GPHH_experiment2_DT_duplicates` - Algorithm for the second experiment using DT as a surrogate and eliminating duplicates based on phenotypic characterization
+      - `GPHH_experiment2_NB_duplicates` - Algorithm for the second experiment using NB as surrogate and eliminating duplicates based on phenotypic characterization
 
 
 
