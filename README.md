@@ -19,7 +19,7 @@ Dispatching rules are simple but efficient heuristics to solve multi-objective j
   - `GPHH_experiment2_RF` - Algorithm for the second experiment using RF as a surrogate
   - `GPHH_experiment2_RF_duplicate` - Algorithm for the second experiment using RF as a surrogate and eliminating duplicates based on phenotypic characterization
   - `GPHH_experiment2_DT_duplicates` - Algorithm for the second experiment using DT as a surrogate and eliminating duplicates based on phenotypic characterization
-  - `GPHH_experiment2_NB_duplicates` - Algorithm for the second experiment using NB as surrogate and eliminating duplicates based on phenotypic characterization
+  - `GPHH_experiment2_NB_duplicates` - Algorithm for the second experiment using NB as a surrogate and eliminating duplicates based on phenotypic characterization
 - `phenotypic_generator.py` - Functions needed to compute the phenotypic characterization of the individuals
 - `surrogates.py` - Functions for the different surrogates
 - `simulation.py` - Discrete event simulation to evaluate the fitness of individuals
