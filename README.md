@@ -9,7 +9,7 @@ Dispatching rules are simple but efficient heuristics to solve multi-objective j
 # Keywords
 `Multi-objective optimization` `Surrogates` `Hyper-heuristic` `Genetic programming` `Dynamic job shop scheduling` `Machine learning`
 
-# Instructions
+# Glossary 
 - `main.py` - Main file where the loop of runs is implemented (1 to 30)
 - `GPHH.py` -Implementation of the genetic programming (definition of terminals, functions, and other settings)
 - `deap/algorithms.py` - Includes the MO-GP-HH algorithms (loop over all generations):
