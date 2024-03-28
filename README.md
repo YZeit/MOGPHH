@@ -13,7 +13,7 @@ Dispatching rules are simple but efficient heuristics to solve multi-objective j
 
 # Glossary 
 - `main.py` - Main file where the loop of runs is implemented (1 to 30)
-- `GPHH.py` -Implementation of the genetic programming (definition of terminals, functions, and other settings)
+- `GPHH.py` - Implementation of the genetic programming (definition of terminals, functions, and other settings)
 - `deap/algorithms.py` - Includes the MO-GP-HH algorithms (loop over all generations):
   - `GPHH_experiment1` - Algorithm for the first experiment to measure the selection accuracy and execution time
   - `GPHH_experiment2_WS` - Algorithm for the second experiment without using surrogates
